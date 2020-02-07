@@ -3,19 +3,23 @@ export class SuperGalactic {
         this.age = age;
     }
 
-    getAge(){
+    getAgeInYears(){
         return Number(this.age);
     }
 
-    getMercuryAge(){
+    getMercuryAgeInYears(){
         return Number((this.age / .24).toFixed(2)); 
     }
 
-    getVenusAge(){
+    getVenusAgeInYears(){
         return Number((this.age / .62).toFixed(2)); 
     }
 
-    getMarsAge(){
+    getMarsAgeInYears(){
         return Number((this.age / 1.88).toFixed(2)); 
+    }
+
+    getJupiterAgeInYears(){
+        return Number((this.age / 11.86).toFixed(2)); 
     }
 }
