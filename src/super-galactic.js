@@ -6,4 +6,6 @@ export class SuperGalactic {
     getAge(){
         return this.age;
     }
+
+    
 }
