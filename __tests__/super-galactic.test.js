@@ -44,4 +44,9 @@ describe("SuperGalactic", () => {
     const age = new SuperGalactic(23);
     expect(age.getPlutoAgeInYears()).toEqual(0.09)
   });
+
+  test("should take user's input age and return their years ti life expectancy or their years they lived past life expectancy on Earth", () => {
+    const age = new SuperGalactic(23);
+    expect(age.lifeExpectancyMenOnEarth()).toEqual("Years to life expectancy for men: 47")
+  });
 })

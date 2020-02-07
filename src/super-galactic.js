@@ -38,4 +38,13 @@ export class SuperGalactic {
     getPlutoAgeInYears(){
         return Number((this.age / 248.59).toFixed(2)); 
     }
+
+    lifeExpectancyMenOnEarth(){
+        let men = 70;
+
+        if (this.age < men){
+            return ("Years to life expectancy for men: " + (men - this.age));
+        }
+        return "Years lived past life expectancy for men: " + (this.age - men);
+    }
 }
