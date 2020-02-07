@@ -7,6 +7,6 @@ describe("SuperGalactic", () => {
   });
   test("should take user's input age and return their age in Mercury years", () => {
     const age = new SuperGalactic(23);
-    expect(age.getMercuryAge()).toEqual(23)
+    expect(age.getMercuryAge()).toEqual(95.83)
   });
 })

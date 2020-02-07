@@ -4,8 +4,10 @@ export class SuperGalactic {
     }
 
     getAge(){
-        return this.age;
+        return Number(this.age);
     }
 
-    
+    getMercuryAge(){
+        return Number((this.age / .24).toFixed(2)); 
+    }
 }
