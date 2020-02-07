@@ -14,4 +14,8 @@ export class SuperGalactic {
     getVenusAge(){
         return Number((this.age / .62).toFixed(2)); 
     }
+
+    getMarsAge(){
+        return Number((this.age / 1.88).toFixed(2)); 
+    }
 }
