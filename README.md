@@ -34,6 +34,7 @@
 
 Behavior | Input | Output |
 --- | --- | --- |
+allows users to input their age | age: 23 | Earth years: 23 years
 allows users to input their age | age: 23 | Mercury years: 95.83 years 
 allows users to input their age | age: 23 | Venus years: 37.09 years
 allows users to input their age | age: 23 | Mars years: 12.23 years 
