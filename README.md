@@ -40,6 +40,7 @@ allows users to input their age and returns their age in Venus years to two deci
 allows users to input their age and returns their age in Mars years to two decimals | age: 23 | Mars years: 12.23 years 
 allows users to input their age and returns their age in Jupiter years to two decimals | age: 23 | Jupiter years: 1.94 years
 allows users to input their age and returns their age in Saturn years to two decimals | age: 23 | Saturn years: 0.78 years
+allows users to input their age and returns their age in Uranus years to two decimals | age: 23 | Uranus years: 0.27 years
 allows users to input their age and returns their age in Neptune years to two decimals | age: 23 | Neptune years: 0.14 years
 allows users to input their age and returns their age in Pluto years to two decimals | age: 23 | Pluto years: 0.09 years
 

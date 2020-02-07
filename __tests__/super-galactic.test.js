@@ -31,4 +31,17 @@ describe("SuperGalactic", () => {
     expect(age.getSaturnAgeInYears()).toEqual(0.78)
   });
 
+  test("should take user's input age and return their age in Uranus years", () => {
+    const age = new SuperGalactic(23);
+    expect(age.getUranusAgeInYears()).toEqual(0.27)
+  });
+
+  test("should take user's input age and return their age in Neptune years", () => {
+    const age = new SuperGalactic(23);
+    expect(age.getNeptuneAgeInYears()).toEqual(0.14)
+  });
+  test("should take user's input age and return their age in Pluto years", () => {
+    const age = new SuperGalactic(23);
+    expect(age.getPlutoAgeInYears()).toEqual(0.09)
+  });
 })
