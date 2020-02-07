@@ -46,12 +46,23 @@ describe("SuperGalactic", () => {
   });
 
   test("should take user's input age for men and return their years to life expectancy or their years they lived past life expectancy on Earth", () => {
-    const age = new SuperGalactic(23);
-    expect(age.lifeExpectancyMenOnEarth()).toEqual("Years to life expectancy for men: 46.80")
+    const earth = new SuperGalactic(23, "male");
+    expect(earth.lifeExpectancyOnEarth(earth.age, earth.gender)).toEqual("Years to life expectancy for you: 46.80")
   });
 
-  test("should take user's input age for women and return their years to life expectancy or their years they lived past life expectancy on Earth", () => {
-    const age = new SuperGalactic(23);
-    expect(age.lifeExpectancyWomenOnEarth()).toEqual("Years to life expectancy for women: 51.20")
+  test("should take user's input age for men and return their years to life expectancy or their years they lived past life expectancy on Mercury", () => {
+    const mercury = new SuperGalactic(23, "male");
+    expect(mercury.lifeExpectancyOnMercury(mercury.age, mercury.gender)).toEqual("Years lived past life expectancy for you: 26.03")
   });
+
+  test("should take user's input age for men and return their years to life expectancy or their years they lived past life expectancy on Venus", () => {
+    const venus = new SuperGalactic(23, "male");
+    expect(venus.lifeExpectancyOnVenus(venus.age, venus.gender)).toEqual("Years lived past life expectancy for you: 32.70")
+  });
+
+
+
+ 
+
+
 })
