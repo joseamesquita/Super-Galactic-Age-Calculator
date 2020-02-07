@@ -40,11 +40,20 @@ export class SuperGalactic {
     }
 
     lifeExpectancyMenOnEarth(){
-        let men = 70;
+        let men = 69.8;
 
         if (this.age < men){
-            return ("Years to life expectancy for men: " + (men - this.age));
+            return ("Years to life expectancy for men: " + (men - this.age).toFixed(2));
         }
-        return "Years lived past life expectancy for men: " + (this.age - men);
+        return "Years lived past life expectancy for men: " + (this.age - men).toFixed(2);
+    }
+
+    lifeExpectancyWomenOnEarth(){
+        let women = 74.2;
+
+        if (this.age < women){
+            return ("Years to life expectancy for women: " + (women - this.age).toFixed(2));
+        }
+        return "Years lived past life expectancy for women: " + (this.age - women).toFixed(2);
     }
 }
