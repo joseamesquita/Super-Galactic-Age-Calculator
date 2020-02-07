@@ -25,4 +25,10 @@ describe("SuperGalactic", () => {
     const age = new SuperGalactic(23);
     expect(age.getJupiterAgeInYears()).toEqual(1.94)
   });
+
+  test("should take user's input age and return their age in Saturn years", () => {
+    const age = new SuperGalactic(23);
+    expect(age.getSaturnAgeInYears()).toEqual(0.78)
+  });
+
 })

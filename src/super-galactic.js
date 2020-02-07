@@ -22,4 +22,8 @@ export class SuperGalactic {
     getJupiterAgeInYears(){
         return Number((this.age / 11.86).toFixed(2)); 
     }
+
+    getSaturnAgeInYears(){
+        return Number((this.age / 29.46).toFixed(2)); 
+    }
 }
