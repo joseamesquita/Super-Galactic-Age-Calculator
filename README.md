@@ -21,6 +21,7 @@
 
 ## Specs
 
+* The user must input an age and gender -> age: Integer type gender: String Type (Ex: "male", "female", "non-binary")
 * A Mercury year is .24 Earth years (age / .24)
 * A Venus year is .62 Earth years (age / .62)
 * A Mars year is 1.88 Earth years (age / 1.88)
@@ -34,15 +35,15 @@
 
 Behavior | Input | Output |
 --- | --- | --- |
-allows users to input their age | age: 23 | Earth years: 23 years
-allows users to input their age and returns their age in Mercury years to two decimals | age: 23 | Mercury years: 95.83 years 
-allows users to input their age and returns their age in Venus years to two decimals | age: 23 | Venus years: 37.10 years
-allows users to input their age and returns their age in Mars years to two decimals | age: 23 | Mars years: 12.23 years 
-allows users to input their age and returns their age in Jupiter years to two decimals | age: 23 | Jupiter years: 1.94 years
-allows users to input their age and returns their age in Saturn years to two decimals | age: 23 | Saturn years: 0.78 years
-allows users to input their age and returns their age in Uranus years to two decimals | age: 23 | Uranus years: 0.27 years
-allows users to input their age and returns their age in Neptune years to two decimals | age: 23 | Neptune years: 0.14 years
-allows users to input their age and returns their age in Pluto years to two decimals | age: 23 | Pluto years: 0.09 years
+allows users to input their age and gender | age: 23, gender: "male" | Earth years: 23 years
+allows users to input their age and gender that returns their age in Mercury years to two decimals | age: 23, gender: "male" | Mercury years: 95.83 years 
+allows users to input their age and gender that returns their age in Venus years to two decimals | age: 23, gender: "male" | Venus years: 37.10 years
+allows users to input their age and gender that returns their age in Mars years to two decimals | age: 23, gender: "male" | Mars years: 12.23 years 
+allows users to input their age and gender that returns their age in Jupiter years to two decimals | age: 23, gender: "male" | Jupiter years: 1.94 years
+allows users to input their age and gender that returns their age in Saturn years to two decimals | age: 23, gender: "male" | Saturn years: 0.78 years
+allows users to input their age and gender that returns their age in Uranus years to two decimals | age: 23, gender: "male" | Uranus years: 0.27 years
+allows users to input their age and gender that returns their age in Neptune years to two decimals | age: 23, gender: "male" | Neptune years: 0.14 years
+allows users to input their age and gender and returns their age in Pluto years to two decimals | age: 23, gender: "male" | Pluto years: 0.09 years
 
 
 ## Known Bugs

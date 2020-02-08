@@ -68,8 +68,6 @@ export class SuperGalactic {
     }
     lifeExpectancyOnMercury(){
         let value = this.getMercuryAgeInYears();
-        console.log(value)
-        console.log(this.gender)
         return (this.lifeExpectancyOnEarth(value, this.gender));
         
     }
@@ -78,6 +76,18 @@ export class SuperGalactic {
         let value = this.getVenusAgeInYears();
         return this.lifeExpectancyOnEarth(value, this.gender);
     }
+
+    lifeExpectancyOnMars(){
+        let value = this.getMarsAgeInYears();
+        return this.lifeExpectancyOnEarth(value, this.gender);
+    }
+
+    lifeExpectancyOnJupiter(){
+        let value = this.getJupiterAgeInYears();
+        return this.lifeExpectancyOnEarth(value, this.gender);
+    }
+
+    
 
 
 }
