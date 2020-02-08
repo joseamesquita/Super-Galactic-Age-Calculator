@@ -42,7 +42,7 @@ allows users to input their age and gender | age: 23, gender: "male" | Earth yea
 allows users to input their age and gender that returns their age in Mercury years to two decimals and life expectancy in Mercury | age: 23, gender: "male" | Mercury years: 95.83 years, Years lived past life expectancy for you: 26.03
 allows users to input their age and gender that returns their age in Venus years to two decimals and life expectancy in Venus | age: 23, gender: "male" | Venus years: 37.10 years, Years to life expectancy for you: 32.70
 allows users to input their age and gender that returns their age in Mars years to two decimals and life expectancy in Mars| age: 23, gender: "male" | Mars years: 12.23 years, Years to life expectancy for you: 57.57 
-allows users to input their age and gender that returns their age in Jupiter years to two decimals and life expectancy in Jupiter | age: 23, gender: "male" | Jupiter years: 1.94 years, ears to life expectancy for you: 67.86
+allows users to input their age and gender that returns their age in Jupiter years to two decimals and life expectancy in Jupiter | age: 23, gender: "male" | Jupiter years: 1.94 years, Years to life expectancy for you: 67.86
 allows users to input their age and gender that returns their age in Saturn years to two decimals | age: 23, gender: "male" | Saturn years: 0.78 years
 allows users to input their age and gender that returns their age in Uranus years to two decimals | age: 23, gender: "male" | Uranus years: 0.27 years
 allows users to input their age and gender that returns their age in Neptune years to two decimals | age: 23, gender: "male" | Neptune years: 0.14 years
