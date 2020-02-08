@@ -6,7 +6,7 @@
 
 ## Description
 
-* Allow the user to enter their age
+* Allow the user to enter their age and preferred gender
 * The application will take the user's age and will determine their years in age comparing to various planets 
 
 ## Setup/Installation Requirements
