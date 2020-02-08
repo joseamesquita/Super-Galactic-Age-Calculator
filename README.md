@@ -21,7 +21,7 @@
 
 ## Specs
 
-* The user must input an age and gender -> age: Integer type gender: String Type (Ex: "male", "female", "non-binary")
+* The user must input an age and gender -> age: Integer type (Ex: 23), gender: String Type (Ex: "male", "female", "non-binary")
 * A Mercury year is .24 Earth years (age / .24)
 * A Venus year is .62 Earth years (age / .62)
 * A Mars year is 1.88 Earth years (age / 1.88)
