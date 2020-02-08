@@ -32,6 +32,9 @@
 * A Pluto year is 248.59 Earth years (age / 248.59)
 * Determine life expectancy depending on demographics 
 * If the user has lived past life expectancy return the number of years they lived past 
+* Life expectancy for males: 69.8 
+* Life expectancy for females: 74.2
+* Life expectancy for non-binary: 72
 
 Behavior | Input | Output |
 --- | --- | --- |
