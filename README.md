@@ -38,14 +38,14 @@ The Super Galactic Age Calculator allows the user to enter their age and an opti
 Behavior | Input | Output |
 --- | --- | --- |
 allows users to input their age and gender | age: 23, gender: "male" | Earth years: 23 years, Years to life expectancy for you: 46.80
-allows users to input their age and gender that returns their age in Mercury years to two decimals and life expectancy in Mercury | age: 23, gender: "male" | Mercury years: 95.83 years, Years lived past life expectancy for you: 26.03
-allows users to input their age and gender that returns their age in Venus years to two decimals and life expectancy in Venus | age: 23, gender: "male" | Venus years: 37.10 years, Years to life expectancy for you: 32.70
-allows users to input their age and gender that returns their age in Mars years to two decimals and life expectancy in Mars| age: 23, gender: "male" | Mars years: 12.23 years, Years to life expectancy for you: 57.57 
-allows users to input their age and gender that returns their age in Jupiter years to two decimals and life expectancy in Jupiter | age: 23, gender: "male" | Jupiter years: 1.94 years, Years to life expectancy for you: 67.86
-allows users to input their age and gender that returns their age in Saturn years to two decimals | age: 23, gender: "male" | Saturn years: 0.78 years
-allows users to input their age and gender that returns their age in Uranus years to two decimals | age: 23, gender: "male" | Uranus years: 0.27 years
-allows users to input their age and gender that returns their age in Neptune years to two decimals | age: 23, gender: "male" | Neptune years: 0.14 years
-allows users to input their age and gender and returns their age in Pluto years to two decimals | age: 23, gender: "male" | Pluto years: 0.09 years
+Program calculates their Earth age in Mercury years | age: 23, gender: "male" | Mercury years: 95.83 years, Years lived past life expectancy for you: 26.03
+Program calculates their Earth age in Venus years | age: 23, gender: "male" | Venus years: 37.10 years, Years to life expectancy for you: 32.70
+Program calculates their Earth age in Mars years | age: 23, gender: "male" | Mars years: 12.23 years, Years to life expectancy for you: 57.57 
+Program calculates their Earth age in Jupiter years | age: 23, gender: "male" | Jupiter years: 1.94 years, Years to life expectancy for you: 67.86
+Program calculates their Earth age in Saturn years | age: 23, gender: "male" | Saturn years: 0.78 years
+Program calculates their Earth age in Uranus years | age: 23, gender: "male" | Uranus years: 0.27 years
+Program calculates their Earth age in Neptune years | age: 23, gender: "male" | Neptune years: 0.14 years
+Program calculates their Earth age in Pluto years | age: 23, gender: "male" | Pluto years: 0.09 years
 
 
 ## Known Bugs
@@ -62,7 +62,6 @@ If you have any questions, collaborate on a project email, or grab a cup of coff
 * _form inputs_
 * _branching_
 * _Git_
-* _Looping & Arrays_
 * _ES6 featues including classes, let and const_
 * _Testing: Jest_
 * _Webpack: lint, bundle, and process code_
