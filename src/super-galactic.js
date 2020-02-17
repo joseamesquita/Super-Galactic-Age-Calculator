@@ -48,7 +48,7 @@ export class SuperGalactic {
     else if (this.gender === "female") {
       let women = 74.2;
 
-      if (age < women) {
+      if (this.age < women) {
         return ("Years to life expectancy for you: " + (women - this.age).toFixed(2));
       }
       return "Years lived past life expectancy for you: " + (this.age - women).toFixed(2);

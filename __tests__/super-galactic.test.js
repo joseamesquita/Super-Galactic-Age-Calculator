@@ -36,9 +36,34 @@ describe("SuperGalactic", () => {
     expect(age.getNeptuneAgeInYears()).toEqual("0.14")
   });
 
-  test("should take user's input age for men and return their years to life expectancy or their years they lived past life expectancy on Earth", () => {
+  test("should take user's input age for men and return their years to life expectancy on Earth", () => {
     const earth = new SuperGalactic(23, "male");
     expect(earth.lifeExpectancyOnEarth()).toEqual("Years to life expectancy for you: 46.80")
+  });
+
+  test("should take user's input age for women and return their years to life expectancy on Earth", () => {
+    const earth = new SuperGalactic(23, "female");
+    expect(earth.lifeExpectancyOnEarth()).toEqual("Years to life expectancy for you: 51.20")
+  });
+
+  test("should take user's input age for non-binary and return their years to life expectancy on Earth", () => {
+    const earth = new SuperGalactic(23, "non-binary");
+    expect(earth.lifeExpectancyOnEarth()).toEqual("Years to life expectancy for you: 49.00")
+  });
+
+  test("should take user's input age for men and return their years they lived past life expectancy on Earth", () => {
+    const earth = new SuperGalactic(84, "male");
+    expect(earth.lifeExpectancyOnEarth()).toEqual("Years lived past life expectancy for you: 14.20")
+  });
+
+  test("should take user's input age for women and return their years they lived past life expectancy on Earth", () => {
+    const earth = new SuperGalactic(84, "female");
+    expect(earth.lifeExpectancyOnEarth()).toEqual("Years lived past life expectancy for you: 9.80")
+  });
+
+  test("should take user's input age for non-binary and return their years they lived past life expectancy on Earth", () => {
+    const earth = new SuperGalactic(84, "non-binary");
+    expect(earth.lifeExpectancyOnEarth()).toEqual("Years lived past life expectancy for you: 12.00")
   });
 
   test("should take user's input age for men and return their years to life expectancy or their years they lived past life expectancy on Mercury", () => {
