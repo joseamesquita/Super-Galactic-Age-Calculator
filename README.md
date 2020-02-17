@@ -20,20 +20,27 @@ The Super Galactic Age Calculator allows the user to enter their age and an opti
 
 ## Specs
 
-* The user must input an age and gender -> age: Integer type (Ex: 23), gender: String Type (Ex: "male", "female", "non-binary")
-* A Mercury year is .24 Earth years (age / .24)
-* A Venus year is .62 Earth years (age / .62)
-* A Mars year is 1.88 Earth years (age / 1.88)
-* A Jupiter year is 11.86 Earth years (age / 11.86)
-* A Saturn year is 29.46 Earth years (age / 29.46)
-* A Uranus year is 84.01 Earth years (age / 84.01)
-* A Neptune year is 164.79 Earth years (age / 164.79)
-* A Pluto year is 248.59 Earth years (age / 248.59)
-* Determine life expectancy depending on demographics 
-* If the user has lived past life expectancy return the number of years they lived past 
-* Life expectancy for males: 69.8 
-* Life expectancy for females: 74.2
-* Life expectancy for non-binary: 72
+Here is a chart of our solar planets years and days equivalent to 1 Earth year or 365 days. Note: These numbers are approximately.  
+
+Planets | Days | Years |
+--- | --- | --- |
+Mercury | 88 | .24 |
+Venus | 225 | .62 |
+Mars | 687 | 1.88 | 
+Jupiter | 4,329 | 11.86 |
+Saturn | 10,753 | 29.46 |
+Uranus | 30,664 | 84.01 | 
+Neptune | 60,148 | 164.79 |
+
+Here is the life expectancy in years for a male, female, and non-binary person on Earth. 
+
+Gender | Life Expectancy | 
+--- | --- | 
+female | 74.2 | 
+male | 69.8 | 
+non-binary | 72 | 
+
+Below are the application specifications that determine the result of the program. This application will take the user's age (Integer type) and preferred gender (String type) from the table above and will return their age in years for every solar planet. As well, this application will return the number of years the users is projected to live to depending on their life expectancy. If the user has surpassed its life expectancy, then the program will return the number of years they lived past. 
 
 Behavior | Input | Output |
 --- | --- | --- |
@@ -45,7 +52,6 @@ Program calculates their Earth age in Jupiter years | age: 23, gender: "male" | 
 Program calculates their Earth age in Saturn years | age: 23, gender: "male" | Saturn years: 0.78 years
 Program calculates their Earth age in Uranus years | age: 23, gender: "male" | Uranus years: 0.27 years
 Program calculates their Earth age in Neptune years | age: 23, gender: "male" | Neptune years: 0.14 years
-Program calculates their Earth age in Pluto years | age: 23, gender: "male" | Pluto years: 0.09 years
 
 
 ## Known Bugs
