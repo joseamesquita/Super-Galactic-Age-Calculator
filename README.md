@@ -47,9 +47,9 @@ Behavior | Input | Output |
 allows users to input their age and gender | age: 23, gender: "male" | Earth years: 23 years, Years to life expectancy for you: 46.80
 allows users to input their age and gender | age: 23, gender: "female" | Earth years: 23 years, Years to life expectancy for you: 51.20
 allows users to input their age and gender | age: 23, gender: "non-binary" | Earth years: 23 years, Years to life expectancy for you: 49.00
-allows users to input their age and gender | age: 84, gender: "male" | Earth years: 23 years, Years lived past life expectancy for you: 14.20
-allows users to input their age and gender | age: 84, gender: "female" | Earth years: 23 years, Years lived past life expectancy for you: 9.80
-allows users to input their age and gender | age: 84, gender: "non-binary" | Earth years: 23 years, Years lived past life expectancy for you: 12.00
+allows users to input their age and gender | age: 84, gender: "male" | Earth years: 84 years, Years lived past life expectancy for you: 14.20
+allows users to input their age and gender | age: 84, gender: "female" | Earth years: 84 years, Years lived past life expectancy for you: 9.80
+allows users to input their age and gender | age: 84, gender: "non-binary" | Earth years: 84 years, Years lived past life expectancy for you: 12.00
 Program calculates their Earth age in Mercury years | age: 23, gender: "male" | Mercury years: 95.83 years, Years lived past life expectancy for you: 26.03
 Program calculates their Earth age in Venus years | age: 23, gender: "male" | Venus years: 37.10 years, Years to life expectancy for you: 32.70
 Program calculates their Earth age in Mars years | age: 23, gender: "male" | Mars years: 12.23 years, Years to life expectancy for you: 57.57 
