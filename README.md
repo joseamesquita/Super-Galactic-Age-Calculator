@@ -6,8 +6,7 @@
 
 ## Description
 
-* Allow the user to enter their age and preferred gender
-* The application will take the user's age and will determine their years in age comparing to various planets 
+The Super Galactic Age Calculator allows the user to enter their age and an option to insert a gender. Then, after the user has inserted their age and preferred gender, the application will return the user's age to solar planets. Depending on the user's gender preference the applcation will also return the user's life expectancy for each planet. 
 
 ## Setup/Installation Requirements
 
