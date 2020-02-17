@@ -32,10 +32,6 @@ export class SuperGalactic {
     return (this.age / 164.79).toFixed(2);
   }
 
-  getPlutoAgeInYears() {
-    return (this.age / 248.59).toFixed(2);
-  }
-
   lifeExpectancyOnEarth() {
     if (this.gender === "male") {
       let men = 69.8;
