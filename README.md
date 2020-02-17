@@ -15,8 +15,9 @@ The Super Galactic Age Calculator allows the user to enter their age and an opti
 3. select copy and open terminal from your desktop
 4. on terminal browse to your desktop: cd Desktop
 5. type: 'git clone https://github.com/joseamesquita/super-galactic-age-calculator.git'
-6. type: 'code .' 
-7. to run the application type: 'open index.html' within the super-galactic-age-calculator folder
+6. type: 'code .' to view source code 
+7. within the super-galactic-age-calculator directory on the terminal window type: 'npm install'
+8. on the same directory as step 7, type: 'npm run test' to show all tests created and passed
 
 ## Specs
 
@@ -70,7 +71,6 @@ If you have any questions, collaborate on a project email, or grab a cup of coff
 ## Technologies Used
 
 * _JavaScript & JQuery_
-* _form inputs_
 * _branching_
 * _Git_
 * _ES6 featues including classes, let and const_
