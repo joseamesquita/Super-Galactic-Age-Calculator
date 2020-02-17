@@ -36,51 +36,55 @@ export class SuperGalactic {
     return (this.age / 248.59).toFixed(2);
   }
 
-  lifeExpectancyOnEarth(age, gender) {
-    if (gender === "male") {
+  lifeExpectancyOnEarth() {
+    if (this.gender === "male") {
       let men = 69.8;
 
-      if (age < men) {
-        return ("Years to life expectancy for you: " + (men - age).toFixed(2));
+      if (this.age < men) {
+        return ("Years to life expectancy for you: " + (men - this.age).toFixed(2));
       }
-      return "Years lived past life expectancy for you: " + (age - men).toFixed(2);
+      return "Years lived past life expectancy for you: " + (this.age - men).toFixed(2);
     }
-    else if (gender === "female") {
+    else if (this.gender === "female") {
       let women = 74.2;
 
       if (age < women) {
-        return ("Years to life expectancy for you: " + (women - age).toFixed(2));
+        return ("Years to life expectancy for you: " + (women - this.age).toFixed(2));
       }
-      return "Years lived past life expectancy for you: " + (age - women).toFixed(2);
+      return "Years lived past life expectancy for you: " + (this.age - women).toFixed(2);
     }
     else {
       let non_binary = 72;
 
-      if (age < non_binary) {
-        return ("Years to life expectancy for you: " + (non_binary - age).toFixed(2));
+      if (this.age < non_binary) {
+        return ("Years to life expectancy for you: " + (non_binary - this.age).toFixed(2));
       }
-      return "Years lived past life expectancy for you: " + (age - non_binary).toFixed(2);
+      return "Years lived past life expectancy for you: " + (this.age - non_binary).toFixed(2);
     }
   }
-  lifeExpectancyOnMercury() {
-    let value = this.getMercuryAgeInYears();
-    return (this.lifeExpectancyOnEarth(value, this.gender));
+  lifeExpectancyOnMercury(age, gender) {
+    this.age = age;
+    this.gender = gender;
+    return this.lifeExpectancyOnEarth();
 
   }
 
-  lifeExpectancyOnVenus() {
-    let value = this.getVenusAgeInYears();
-    return this.lifeExpectancyOnEarth(value, this.gender);
+  lifeExpectancyOnVenus(age, gender) {
+    this.age = age;
+    this.gender = gender
+    return this.lifeExpectancyOnEarth();
   }
 
-  lifeExpectancyOnMars() {
-    let value = this.getMarsAgeInYears();
-    return this.lifeExpectancyOnEarth(value, this.gender);
+  lifeExpectancyOnMars(age, gender) {
+    this.age = age;
+    this.gender = gender
+    return this.lifeExpectancyOnEarth();
   }
 
-  lifeExpectancyOnJupiter() {
-    let value = this.getJupiterAgeInYears();
-    return this.lifeExpectancyOnEarth(value, this.gender);
+  lifeExpectancyOnJupiter(age, gender) {
+    this.age = age;
+    this.gender = gender
+    return this.lifeExpectancyOnEarth();
   }
 
 
